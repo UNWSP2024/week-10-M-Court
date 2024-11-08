@@ -1,0 +1,18 @@
+Pseudocode Wk10
+For Program 4
+
+Create class
+	•	initialize by creating attributes
+	◦	name
+	◦	number
+	◦	department
+	◦	job title
+	•	get/read all attributes
+	•	print each attribute
+
+create objects
+	•	employee 1
+	•	employee 2
+	•	employee 3
+
+print each employee’s attributes with new-lines in between employees 
