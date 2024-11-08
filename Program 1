@@ -1,0 +1,27 @@
+# 1: Pick one of the short programs in one of the videos.  Compile and run that code.
+
+class Student:
+	#create a method with "self" argument
+	def check_pass_fail(self):
+			if self.marks >= 90:
+					return True
+			else:
+					return False
+
+#create obj from class
+student1 = Student()
+#add attributes
+student1.name = "Troy"
+student1.marks = 99
+
+#create 2nd object from class
+student2 = Student()
+#add attribues
+student2.name = "Chad"
+student2.marks = 20
+
+#call method
+did_pass = student1.check_pass_fail()
+print(did_pass)
+did_pass = student2.check_pass_fail()
+print(did_pass)
