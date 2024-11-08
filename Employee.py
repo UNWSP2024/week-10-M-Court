@@ -44,7 +44,9 @@ employee3 = Employee("Joy Rogers", 81774,	"Manufacturing", "Engineer")
 
 #print employee info
 Employee.print_employee(employee1)
+#new line
 print("\n")
 Employee.print_employee(employee2)
+#new line
 print("\n")
 Employee.print_employee(employee3)
